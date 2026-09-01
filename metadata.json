@@ -1,0 +1,6 @@
+{
+  "name": "SOMADETH / TG-PREMIUM-GIFT",
+  "description": "High-security encrypted Telegram Premium CDK redemption portal and password-protected admin dashboard with audit logging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
