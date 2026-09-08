@@ -1,0 +1,6 @@
+{
+  "name": "AutoGift — somadethgiftcdk.site/#chatgpt & Telegram CDK",
+  "description": "Redeem ChatGPT Plus and Telegram Premium CDK activation codes on somadethgiftcdk.site, track order delivery in real time, and manage CDKs in the admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

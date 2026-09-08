@@ -1,0 +1,155 @@
+{
+  "cdks": [
+    {
+      "id": "cdk_1788879876079_1_90d7",
+      "code": "VIPRUM3U-PEN56ZR8-WRGCHZSL",
+      "duration": "6_months",
+      "durationLabel": "6 Months",
+      "status": "available",
+      "createdAt": "2026-09-08T15:04:36.079Z",
+      "notes": "Batch BATCH-MTSSW2CV",
+      "batchId": "BATCH-MTSSW2CV"
+    },
+    {
+      "id": "cdk_1788879876079_0_55ic",
+      "code": "VIPQ8MD6-SNXNGGSJ-QZUNT5E5",
+      "duration": "6_months",
+      "durationLabel": "6 Months",
+      "status": "available",
+      "createdAt": "2026-09-08T15:04:36.079Z",
+      "notes": "Batch BATCH-MTSSW2CV",
+      "batchId": "BATCH-MTSSW2CV"
+    },
+    {
+      "id": "cdk_seed_1",
+      "code": "TGPRM839-ABCDEFGH-12345678",
+      "duration": "3_months",
+      "durationLabel": "3 Months",
+      "status": "redeemed",
+      "createdAt": "2026-09-07T14:59:58.488Z",
+      "notes": "Official AutoGift Launch Promo",
+      "batchId": "BATCH-ALPHA",
+      "redeemedAt": "2026-09-08T15:04:04.793Z",
+      "redeemedBy": "@durov_test",
+      "orderId": "AG-116988",
+      "telegramGiftUrl": "https://t.me/giftcode/TG-GIFT-40VBT1iQxciLJmnO"
+    },
+    {
+      "id": "cdk_seed_2",
+      "code": "TGPREM01-K9L2M8P4-7T3QW9R1",
+      "duration": "1_month",
+      "durationLabel": "1 Month",
+      "status": "available",
+      "createdAt": "2026-09-07T20:59:58.489Z",
+      "notes": "Telegram Gift Trial Key",
+      "batchId": "BATCH-ALPHA"
+    },
+    {
+      "id": "cdk_seed_3",
+      "code": "TGPREM06-VX89KP21-MN45QR67",
+      "duration": "6_months",
+      "durationLabel": "6 Months",
+      "status": "available",
+      "createdAt": "2026-09-08T02:59:58.489Z",
+      "notes": "VIP Community Drop",
+      "batchId": "BATCH-VIP"
+    },
+    {
+      "id": "cdk_seed_4",
+      "code": "TGPREM12-Z9Y8X7W6-V5U4T3S2",
+      "duration": "12_months",
+      "durationLabel": "12 Months",
+      "status": "available",
+      "createdAt": "2026-09-08T08:59:58.489Z",
+      "notes": "Annual Subscription Key",
+      "batchId": "BATCH-VIP"
+    },
+    {
+      "id": "cdk_seed_5",
+      "code": "TGTEST99-DEMO2026-ACTIVE01",
+      "duration": "3_months",
+      "durationLabel": "3 Months",
+      "status": "available",
+      "createdAt": "2026-09-08T12:59:58.489Z",
+      "notes": "Quick Test Key for Instant Demo",
+      "batchId": "BATCH-TEST"
+    },
+    {
+      "id": "cdk_seed_6",
+      "code": "TGPAID03-REDEEMED-99887766",
+      "duration": "3_months",
+      "durationLabel": "3 Months",
+      "status": "redeemed",
+      "createdAt": "2026-09-06T14:59:58.489Z",
+      "redeemedAt": "2026-09-07T14:59:58.489Z",
+      "redeemedBy": "@durov",
+      "orderId": "AG-918234",
+      "notes": "Redeemed key example",
+      "batchId": "BATCH-OLD",
+      "telegramGiftUrl": "https://t.me/giftcode/TG-GIFT-ALPHA-918234"
+    }
+  ],
+  "orders": [
+    {
+      "id": "AG-116988",
+      "type": "cdk_redemption",
+      "username": "@durov_test",
+      "plan": "3_months",
+      "planLabel": "3 Months",
+      "amountUsd": 0,
+      "cdkCode": "TGPRM839-ABCDEFGH-12345678",
+      "paymentMethod": "cdk_key",
+      "paymentStatus": "paid",
+      "status": "completed",
+      "queuePosition": 0,
+      "estimatedWaitSeconds": 8,
+      "verification": {
+        "isValid": true,
+        "username": "@durov_test",
+        "displayName": "Durov Test",
+        "isPremium": false,
+        "avatarSeed": "durov_test",
+        "verificationSource": "Telegram Bot API (Automated Verification)",
+        "verifiedAt": "2026-09-08T15:03:59.089Z"
+      },
+      "createdAt": "2026-09-08T15:03:59.089Z",
+      "updatedAt": "2026-09-08T15:04:04.792Z",
+      "logs": [
+        {
+          "timestamp": "2026-09-08T15:03:59.089Z",
+          "stage": "verifying_user",
+          "message": "Automated check: @durov_test verified via Telegram Bot API v8.1"
+        },
+        {
+          "timestamp": "2026-09-08T15:03:59.089Z",
+          "stage": "in_queue",
+          "message": "Placed order AG-116988 in Fair Queue (Position #1)"
+        },
+        {
+          "timestamp": "2026-09-08T15:04:01.590Z",
+          "stage": "dispatching_api",
+          "message": "Dispatching Telegram Premium gift subscription payload via Telegram API gateway..."
+        },
+        {
+          "timestamp": "2026-09-08T15:04:04.792Z",
+          "stage": "completed",
+          "message": "Telegram Premium Gift successfully delivered! Link: https://t.me/giftcode/TG-GIFT-40VBT1iQxciLJmnO"
+        }
+      ],
+      "delivery": {
+        "provider": "Telegram Premium Gift Subscription API (MTProto v8.1)",
+        "giftUrl": "https://t.me/giftcode/TG-GIFT-40VBT1iQxciLJmnO",
+        "transactionHash": "0xf83d4b14fab3dff1833745686ca07ce85d65ed1d",
+        "deliveredAt": "2026-09-08T15:04:04.792Z",
+        "durationMonths": 3,
+        "durationLabel": "3 Months",
+        "receiptNumber": "RCPT-MTSSVE7S-6121"
+      }
+    }
+  ],
+  "settings": {
+    "queueSpeedSeconds": 4,
+    "telegramApiEnabled": true,
+    "autoVerifyUsers": true
+  }
+}
